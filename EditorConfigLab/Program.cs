@@ -2,16 +2,25 @@
 Console.WriteLine("Hello, World!");
 
 
-public class Nisse {
+public class Nisse
+{
 
-    public Nisse() {
+    public Nisse()
+    {
         DoSomething(1);
     }
 
     public bool Enabled { get; set; } = false;
 
-    public void DoSomething(int x) {
-
+    public void DoSomething(int x)
+    {
+        if (Enabled == true)
+        {
+            //Something
+        } else
+        {
+            //Something else
+        }
     }
 
 }
