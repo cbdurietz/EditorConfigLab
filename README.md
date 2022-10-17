@@ -48,6 +48,6 @@ Or, in a comma-separated list:
 - `properties`
 - `types`
 
-The latter don't seem to be supported by Visual Studio. At least not for me. If I create a comma-separated list as per the definition, Visual Studio can read it, but if I remove one of the tick boxes, it doesn't simply remove the specific item in the list, but set the whole attribute to `none`.
+The latter don't seem to be supported by Visual Studio. At least not for me. If I create a comma-separated list as per the definition, Visual Studio can read it. But if I remove one of the tick boxes, it doesn't simply remove the specific item from the list, but set the whole attribute to `none`.
 
 For more info on how it is supposed to work: [C# formatting options](https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/style-rules/csharp-formatting-options#csharp_new_line_before_open_brace)
